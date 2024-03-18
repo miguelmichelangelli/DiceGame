@@ -30,3 +30,9 @@ else{
 }
 
 document.querySelector(".title").textContent= winner;
+
+function refreshMeTitle(){
+    document.querySelector(".title").textContent= "Refresh Me!";
+}
+
+setTimeout(refreshMeTitle, 4000);
